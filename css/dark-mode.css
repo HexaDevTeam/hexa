@@ -56,11 +56,6 @@ body {
   background-color: #eee !important;
 }
 
-[data-theme="dark"] .navbar-toggler {
-  color: #eee !important;
-  border-color: #eee !important;
-}
-
 [data-theme="dark"] pre {
   background-color: #171717 !important;
 }
@@ -351,4 +346,8 @@ color: white;
 [data-theme="dark"].single_advisor_details_info p,
 .single_advisor_details_info p {
   color: #c2c2c2;
+}
+
+[data-theme="dark"] .single_advisor_profile .advisor_thumb {
+  background-color: #FFFFFF;
 }

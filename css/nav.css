@@ -1,5 +1,10 @@
 /* Thanks for https://stackoverflow.com/questions/71952260/bootstrap-5-animated-hamburger-starting-off-as-x */
 
+
+.navbar-toggler {
+  border: 0 !important;
+}
+
 .navbar-toggler span {
   display: block;
   background-color: #4f4f4f;
