@@ -32,6 +32,21 @@ nav {
     overflow: hidden;
 }
 
+footer {
+    text-align: center;
+    padding: 22px;
+    background-color: #f1f1f1;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 9px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    color: #5e5d5d;
+}
+
 /* TODO Responsive CSS by Nabil */
 @media screen and (max-width: 580px) {
     .row {
