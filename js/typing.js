@@ -1,7 +1,7 @@
 const texts = [
-  "HexaDev Team To The Top!",
-  "Build from zero to one hundred",
-  "We're the developer",
+  "// HexaDev Team To The Top!",
+  "// Build from zero to one hundred for everyone",
+  "// We're the six developer",
 ];
 
 const typingSpeed = 100; // Kecepatan typing dalam milidetik
