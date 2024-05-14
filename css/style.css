@@ -26,3 +26,9 @@ nav {
     /* Sesuaikan dengan kebutuhan Anda */
     overflow: hidden;
 }
+
+
+/* device */
+@media (min-width: 680px) {
+    
+}
