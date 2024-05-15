@@ -23,7 +23,15 @@
   border-radius: 15px 15px 0 0;
   width: 140%;
   height: auto;
-  display: block;
+  transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.advisor_thumb img:hover {
+  transition-timing-function: cubic-bezier(0.35, 1.65, 0.15, 0.85);
+  transition-duration: 700ms;
+  height: auto;
+  transform: scale(1.20);
+  transform-origin: center;
 }
 
 .single_advisor_profile .advisor_thumb::after {
@@ -57,6 +65,18 @@
 }
 
 @media only screen and (max-width: 575px) {
+  single_advisor_profile .advisor_thumb img {
+    border-radius: 15px 15px 0 0;
+    width: 140%;
+    height: auto;
+    display: block;
+    transition: width 1s, height 1s;
+  }
+  
+  .advisor_thumb img:hover {
+    transition: width 1s, height 1s;
+  }
+
   .single_advisor_profile .advisor_thumb::after {
     height: 120px;
     bottom: -90px;
