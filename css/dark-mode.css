@@ -41,6 +41,7 @@ body {
 }
 
 [data-theme="dark"] .bg-light {
+  box-shadow: 0 5px 13px rgba(122, 122, 124, 0.2) !important;
   background-color: #0E1419 !important;
 }
 
@@ -51,6 +52,11 @@ body {
 [data-theme="dark"] .nav-link {
   color: #eee !important;
 }
+
+/* card */
+/* [data-theme="dark"] .single_advisor_profile .single_advisor_details_info {
+ background-color: #969696;
+} */
 
 [data-theme="dark"] .navbar-toggler span {
   background-color: #eee !important;
@@ -349,5 +355,5 @@ color: white;
 }
 
 [data-theme="dark"] .single_advisor_profile .advisor_thumb {
-  background-color: #FFFFFF;
+  background-color: #074173;
 }
