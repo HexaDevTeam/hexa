@@ -5,6 +5,11 @@
   src: url("fonts/CascadiaCode.ttf");
 }
 
+@font-face {
+  font-family: Product Sans;
+  src: url("fonts/ProductSans-Regular.woff");
+}
+
 h1,
 h2,
 h3,
@@ -22,7 +27,11 @@ nav {
 }
 
 .cascadia {
-  font-family: "Cascadia Code", monospace;
+  font-family: "Cascadia Code", monospace !important;
+}
+
+.product-sans {
+  font-family: "Product Sans", monospace !important;
 }
 
 .jumbotron {
@@ -36,6 +45,7 @@ nav {
 }
 
 footer {
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   padding: 22px;
   background-color: #f1f1f1;
