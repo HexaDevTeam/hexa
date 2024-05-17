@@ -10,6 +10,15 @@
   src: url("fonts/ProductSans-Regular.woff");
 }
 
+
+body {
+  animation: gradient-animation 6s ease infinite;
+  background: linear-gradient(270deg, #548aff, #fad0c4, #ffd1ff, #ff9138);
+  background-size: 400% 400%;
+  height: 100vh; /* Agar elemen memenuhi seluruh layar */
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -45,7 +54,7 @@ nav {
 }
 
 footer {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   padding: 22px;
   background-color: #f1f1f1;
@@ -74,5 +83,18 @@ footer p {
   .col-12.col-sm-6.col-lg-3 {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+}
+
+/* keyframe */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
