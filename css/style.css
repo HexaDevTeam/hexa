@@ -12,10 +12,13 @@
 
 
 body {
-  /* animation: gradient-animation 10s ease infinite; */
-  background: linear-gradient(110deg, #acc3f8, #ffffff, #fea760);
-  background-size: 100%;
+  background: #c2c2c2;
   margin: 0;
+}
+
+.quotes {
+  position: relative;
+  height: 25em;
 }
 
 h1,

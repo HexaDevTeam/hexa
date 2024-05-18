@@ -3,12 +3,6 @@
  * Copyright 2021 C.Oliff
  * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
  */
-body {
-  background-color: #F1F0F4 !important;
-  color: #222;
-  transition: background-color 0.5s;
-
-}
 
 [data-theme="dark"] .navbar-brand {
   content: url('../image/hexa.png');
