@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
  */
 
+ [data-theme="dark"] .navbar {
+  backdrop-filter: blur(3px);
+  background-color: rgba(56, 56, 56, 0.576) !important;
+}
+
 [data-theme="dark"] .navbar-brand {
   content: url('../image/hexa.png');
 }
